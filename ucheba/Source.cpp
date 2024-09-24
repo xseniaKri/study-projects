@@ -14,7 +14,7 @@ int main()
 	cout << "min unsigned int = " << min_unsigned_int << ", max_unsigned_int = " << max_unsigned_int << ", size of unsigned int = " << sizeof(unsigned int) << endl;
 	short min_short, max_short;
 	min_short = 0b1000000000000000;
-	max_short = 0b0111111111111111;
-	cout << "min short = " << min_short << ", max short = " << max_short << ", size of short = " << sizeof(short) << endl;
+	/*max_short = 0b0111111111111111;
+	cout << "min short = " << min_short << ", max short = " << max_short << ", size of short = " << sizeof(short) << endl;*/
 	return 0;
 }
